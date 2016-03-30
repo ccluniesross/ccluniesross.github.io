@@ -1,0 +1,84 @@
+@import url(https://fonts.googleapis.com/css?family=Playfair+Display:400,700);
+@import url(https://fonts.googleapis.com/css?family=Source+Sans+Pro);
+
+body {
+  margin-top: 2em;
+  font-size: 16px;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-weight: 400;
+  color: #222;
+}
+
+a {
+  color:rgb(251, 80, 178);
+  text-decoration: none;
+}
+
+a:visited {
+  color: rgb(133, 32, 137);
+}
+
+a:hover,
+a:focus {
+  color: rgb(252,	130, 255);
+}
+
+header,
+main,
+footer {
+  margin: 0 auto;
+  width: 650px;
+  line-height: 1.5;
+}
+
+section {
+  padding: 1em;
+  padding-bottom: .5px;
+  margin: 2em 2;
+}
+
+article {
+  padding-bottom: 1px;
+}
+
+h1, h2 {
+  font-family: 'Playfair Display', serif;
+  border-bottom: 2px solid rgb(251, 80, 178);
+}
+
+.spacing {
+  line-height: 1;
+}
+
+
+#wwd {
+  float: right;
+  margin: -20px 0 0 0;
+}
+
+#drill {
+  float: right;
+  margin: 5px 0 0 0;
+}
+
+#lm {
+  float: right;
+  margin: -2px 0 0 0;
+}
+
+#ksubi {
+  float: right;
+  margin: -2px 0 0 0;
+}
+
+
+#navigation {
+  padding-top: 25px;
+  width: 650px;
+  line-height: 1.5;
+}
+
+#cc {
+  float: left;
+  margin: 0 10px 0 -5px;
+}
