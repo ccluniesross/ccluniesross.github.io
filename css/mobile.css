@@ -1,38 +1,28 @@
-<meta name="viewport" content="width=device-width;
-  initial-scale=1;" />
-  @media only screen and (min-device-width : 320px) and (max-device-width : 480px) and (orientation : portrait) and (-webkit-min-device-pixel-ratio : 2) {
-    main, footer, body {
-      width: 320px;
-      font-size: 32px;
-    }
-    .clear {
-      clear: left;
-    }
-    address {
-      font-size: 32px;
-    }
-    h4 {
-      margin-bottom: 0px;
-    }
-
-    article {
-      padding-bottom: 10px;
-    }
-
-    #Pharrell {
-      float: none;
-      display: none;
-    }
-    #AnnaLunoe {
-      float: none;
-      display: none;
-    }
-    #LaScene {
-      float: none;
-      display: none;
-    }
-    #HiroClark {
-      float: none;
-      display: none;
-    }
+<style>
+@media (max-width: 320px) {
+  header, body, main {
+    font-size: 32px;
   }
+  #
+  #Pharrell {
+    display: none;
+    clear: left;
+  }
+  #AnnaLunoe {
+    display: none;
+    clear: left;
+  }
+  #LindsayLuv {
+    display: none;
+    clear: left;
+  }
+  #HiroClark {
+    display: none;
+    clear: left;
+  }
+  .clear {
+    clear: right;
+    display: none;
+  }
+}
+</style>
