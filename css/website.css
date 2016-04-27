@@ -3,6 +3,7 @@
 
 body {
   margin-top: 2em;
+  padding-bottom: 20px;
   font-size: 16px;
   font-family: 'Source Sans Pro', sans-serif;
   font-weight: 400;
@@ -11,28 +12,47 @@ body {
   background-attachment: fixed;
 }
 
-
-header,
 main,
 footer {
   margin: 0 auto;
   width: 650px;
   line-height: 1.5;
-  background: white; /* rgba */
-  padding-left: 10px;
-  padding-right: 10px;
+  background: rgba(175,	223,	255, 0.5);
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+header {
+
+  margin: 0 auto;
+  width: 650px;
+  line-height: 1.5;
+  background: rgba(175,	223,	255, 0.5);
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-bottom: .5px;
 }
 
 h1, h2 {
+  padding-top: 10px;
   margin: 0 auto;
   text-align: center;
   font-family: 'Playfair Display', serif;
-  border-bottom: 2px solid rgb(251, 80, 178);
+  border-bottom: 2px solid rgb(251,	156, 190);
 }
 
+h3 {
+  line-height: 1;
+  padding-top: 20px;
+}
+
+h4 {
+  line-height: .75;
+}
 nav {
      margin-bottom: 2em;
      text-align: center;
+     padding-bottom: 0px;
 }
 
 nav ul {
@@ -46,7 +66,83 @@ nav li {
      margin-right: 2em;
 }
 
+a {
+  color: rgb(21,	101,	192);
+  text-decoration: none;
+}
+
+
+a:hover,
+a:focus {
+  color: rgb(66, 165, 245);
+}
+
+div {
+  margin-bottom: 0;
+  position: relative;
+  top: -55px;
+  padding-bottom: 0;
+  margin: 0;
+  width: 305px;
+  float:right;
+}
 
 #subhead {
   text-align: center;
+}
+
+#active {
+  color: rgb(21,	101,	192);
+  text-decoration: underline;
+}
+
+#pharrell {
+  padding-top: 10px;
+  float:left;
+}
+
+#wwd {
+  float: right;
+  margin: -13px 83px 0 0;
+}
+
+#drill {
+  float: right;
+  margin: 5px 40px 0 0;
+}
+
+#ksubi {
+  float: right;
+  margin: 4px 75px 0 0;
+}
+
+#ww {
+  padding-bottom: 15px;
+}
+
+.bottom {
+  padding-top: 15px;
+  align: left;
+  width: 650px;
+}
+
+.boldcaps {
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.bold {
+  font-weight: bold;
+}
+
+.smallpadding {
+  padding-bottom: 5px;
+}
+
+.morepadding {
+  padding-bottom: 10px;
+}
+
+.evenmorepadding {
+  padding-bottom: 15px;
 }

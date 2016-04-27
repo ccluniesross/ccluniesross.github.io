@@ -1,0 +1,39 @@
+<meta name="viewport" content="width=device-width;
+  initial-scale=1;" />
+
+  @media (max-width: 320px) {
+    main, footer, body {
+      width: 320px;
+      font-size: 32px;
+    }
+    .clear {
+      clear: left;
+    }
+    address {
+      font-size: 32px;
+    }
+    h4 {
+      margin-bottom: 0px;
+    }
+
+    article {
+      padding-bottom: 10px;
+    }
+
+    #Pharrell {
+      float: none;
+      display: none;
+    }
+    #AnnaLunoe {
+      float: none;
+      display: none;
+    }
+    #LaScene {
+      float: none;
+      display: none;
+    }
+    #HiroClark {
+      float: none;
+      display: none;
+    }
+}

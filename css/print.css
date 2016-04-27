@@ -27,11 +27,17 @@ h2 {
   margin-bottom: 0.2in;
 }
 
-nav {
-  display: none;
+h4 {
+  line-height: 1;
+  margin: 0 auto;
 }
 
-img {
+h4 {
+  line-height: 1;
+  margin: 0 auto;
+}
+
+nav {
   display: none;
 }
 
@@ -41,4 +47,22 @@ a[href^="http"] {
 
 a[href^="http"]:after {
   content: " (" attr(href) ") ";
+}
+
+#subhead {
+  text-align: center;
+}
+
+#wwd {
+  margin: -13px 0 0 0;
+}
+
+#drill {
+  padding-bottom: 20px;
+ -webkit-filter: grayscale(100%);
+  filter: grayscale(100%);
+}
+
+#ksubi {
+  padding-bottom: 20px;
 }
